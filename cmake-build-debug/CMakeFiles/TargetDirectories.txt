@@ -1,0 +1,3 @@
+D:/CppProjects/ClionProjects/test22-1-20/cmake-build-debug/CMakeFiles/test22_1_20.dir
+D:/CppProjects/ClionProjects/test22-1-20/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CppProjects/ClionProjects/test22-1-20/cmake-build-debug/CMakeFiles/rebuild_cache.dir
