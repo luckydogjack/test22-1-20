@@ -21,7 +21,7 @@ int main() {
     int a;
     cout << "ÊäÈëÊı×Ö£º" << endl;
     cin >> a;
-    cout << "Hello, your number is:" << a << endl; //×¢ÊÍ
+    cout << "Hello, your number is:" << a << endl;
     cout<<"ÖĞÎÄ²âÊÔ"<<endl;
     return 0;
 }
