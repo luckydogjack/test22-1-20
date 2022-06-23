@@ -20,6 +20,7 @@ using namespace std;
 int main() {
     int a;
     cout << "输入数字：" << endl;
+    cout << "输入数字：" << endl;
     cin >> a;
     cout << "Hello, your number is:" << a << endl; //1234
     cout<<"中文测试"<<endl;
