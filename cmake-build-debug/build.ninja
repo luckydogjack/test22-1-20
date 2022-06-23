@@ -49,12 +49,6 @@ cmake_ninja_workdir = D$:/CppProjects/ClionProjects/test22-1-20/cmake-build-debu
 
 build cmake_object_order_depends_target_test22_1_20: phony || CMakeFiles/test22_1_20.dir
 
-build CMakeFiles/test22_1_20.dir/main.cpp.obj: CXX_COMPILER__test22_1_20_Debug D$:/CppProjects/ClionProjects/test22-1-20/main.cpp || cmake_object_order_depends_target_test22_1_20
-  DEP_FILE = CMakeFiles\test22_1_20.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\test22_1_20.dir
-  OBJECT_FILE_DIR = CMakeFiles\test22_1_20.dir
-
 build CMakeFiles/test22_1_20.dir/test1.cpp.obj: CXX_COMPILER__test22_1_20_Debug D$:/CppProjects/ClionProjects/test22-1-20/test1.cpp || cmake_object_order_depends_target_test22_1_20
   DEP_FILE = CMakeFiles\test22_1_20.dir\test1.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -69,7 +63,7 @@ build CMakeFiles/test22_1_20.dir/test1.cpp.obj: CXX_COMPILER__test22_1_20_Debug 
 #############################################
 # Link the executable test22_1_20.exe
 
-build test22_1_20.exe: CXX_EXECUTABLE_LINKER__test22_1_20_Debug CMakeFiles/test22_1_20.dir/main.cpp.obj CMakeFiles/test22_1_20.dir/test1.cpp.obj
+build test22_1_20.exe: CXX_EXECUTABLE_LINKER__test22_1_20_Debug CMakeFiles/test22_1_20.dir/test1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\test22_1_20.dir
