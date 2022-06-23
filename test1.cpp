@@ -14,14 +14,14 @@
 // }
 
 #include <bits/stdc++.h>
+
 using namespace std;
-int main()
-{
+
+int main() {
     int a;
     cout << "ÊäÈëÊı×Ö£º" << endl;
     cin >> a;
-    cout << a << "Hello, test1!" << endl; //×¢ÊÍ
-
-    cout << endl;
+    cout << "Hello, your number is:" << a << endl; //×¢ÊÍ
+    cout<<"ÖĞÎÄ²âÊÔ"<<endl;
     return 0;
 }
